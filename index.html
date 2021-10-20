@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ajax Tutorial</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="js/misFunciones.js"></script>
+    <script type="text/javascript" src="js/message.js"></script>
+</head>
+
+<body>
+
+<p>
+---------------------------------------------------------------------------------------------------------------------------------------
+</p>
+<div>
+    <h2> Base de datos CLIENT </h2>
+    <input type="number" id="id" placeholder="id">
+    <input type="text" id="name" placeholder="name">
+    <input type="text" id="email" placeholder="email">
+    <input type="number" id="age" placeholder="age">
+    <div>
+        <button onclick="traerInformacion()">Consultar_Client </button>
+        <button onclick="guardarInformacion()">Guardar_Client</button>
+        <button onclick="editarInformacion()">Actualizar_Client</button>
+        <div id="resultado"> </div>
+    </div>
+</div>
+<p>
+---------------------------------------------------------------------------------------------------------------------------------------
+</p>
+<div>
+    <h2> Base de datos MESSAGETEXT </h2>
+    <input type="number" id="ID" placeholder="id">
+    <input type="text" id="messagetext" placeholder="messagetext">
+    <div>
+        <button onclick="traerInformacioMessage()">Consultar_Message </button>
+        <button onclick="guardarInformacionMessage()">Guardar_Message</button>
+        <button onclick="editarInformacionMessage()">Actualizar_Message</button>
+        <div id="resultadoMessage"> </div>
+    </div>
+</div>
+
+<p>
+---------------------------------------------------------------------------------------------------------------------------------------
+</p>
+</body>
+
+</html>
+
